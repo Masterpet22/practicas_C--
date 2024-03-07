@@ -1,21 +1,27 @@
+/*
+1. Escriba un porframa que lea dos numero y determine cual de ellos es mayor
+*/
+
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
-    int numero, dato = 5;
+    float num1, num2;
 
-    cout << "Digite un numero: ";
-    cin >> numero;
+    cout << "Digite el primer numero: ";
+    cin >> num1;
+    cout << "Digite el segundo numero: ";
+    cin >> num2;
 
-    if (numero == dato)
+    if (num1 > num2)
     {
-        cout << "El numero es 5";
+        cout << "El primer numero es mayor";
     }
     else
     {
-        cout << "El numero es diferente de 5";
+        cout << "El segundo numero es mayor";
     }
 
     return 0;
